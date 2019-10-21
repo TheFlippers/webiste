@@ -1,0 +1,82 @@
+/* Global */
+html {
+    font-family: 'Aldrich', sans-serif;
+    font-size: 10px;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none
+}
+
+section {
+    padding: 5rem 0;
+}
+
+body {
+    background: linear-gradient(135deg, rgba(40,40,40,.85) 0%, rgba(70,70,70,0.85) 100%), url("images/background.jpg") center no-repeat;
+    background-size: cover;
+    margin: 0 0;
+}
+
+/* Header Style */
+header {
+    width: 100%;
+    position: absolute;
+    margin: 0 0;
+    z-index: 1000;
+}
+
+.container {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.banner-img {
+    margin: 0 auto;
+}
+.navbar {
+    width: 100%;
+    background-color: rgb(104,97,91);
+    display: flex;
+    justify-content: flex-end;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.navbar-ul {
+    width: 20rem;
+    padding: 0 0;
+    margin: 0 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.navbar-ul a {
+    color: white;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.navbar-li {
+    padding: 1rem 1rem;
+    justify-content: center;
+}
+
+.navbar-li:hover {
+    background-color: black;
+    cursor: pointer;
+}
+
+/* Body Style */
+.body-content {
+    width: 100%;
+    height: 80vh;
+}
