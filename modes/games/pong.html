@@ -1,9 +1,10 @@
 <!DOCTYPE hmtl>
 <html lang="en-us">
-<head>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Aldrich&display=swap">
-    <link rel="stylesheet" href="/style/upload.css">
-</head>
+	<head>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Aldrich&display=swap">
+		<script src="https://kit.fontawesome.com/e4a9d688ed.js" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="/style/pong.css">
+	</head>
     <body>
         <header>
             <div class="container">
@@ -40,12 +41,18 @@
 					</div>
 					<h1>Pong</h1>
 					<div class="game-input">
-						<span class="player">?</span> Player
-						<div class="up-button">^</div>
-						<div class="down-button">v</div>
+                        <div class="player-label">
+                            <span class="player">?</span> Player
+                        </div>
+						<div class="start button">Start</div>
+                        <div class="buttons">
+                            <div class="up button"><i class="fas fa-arrow-up"></i></div>
+                            <div class="down button"><i class="fas fa-arrow-down"></i></div>
+                        </div>
 					</div>
 				</div>
             </div>
         </section>
+	    <script src="../../script/js/pong.js"></script>
     </body>
 </html>
