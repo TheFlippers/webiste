@@ -3,6 +3,7 @@
   <head>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Aldrich&display=swap">
     <link rel="stylesheet" href="style/index.css">
+    <script src="./script/js/config.js"></script>
   </head>
   <body>
     <header>
@@ -43,22 +44,22 @@
             <h1>config!</h1>
             <div class="screen-locations">
               <div>
-                <input class="top-left" type="text" placeholder="Top Left" />
+                <input class="top-left" id="top-left" type="text" placeholder="Top Left" />
               </div>
 
               <div>
-                <input class="top-right" type="text" placeholder="Top Right" />
+                <input class="top-right" id="top-right" type="text" placeholder="Top Right" />
               </div>
 
               <div>
-                <input class="bot-left" type="text" placeholder="Bottom Left" />
+                <input class="bot-left" id="bot-left" type="text" placeholder="Bottom Left" />
               </div>
 
               <div>
-                <input class="bot-right" type="text" placeholder="Bottom Right" />
+                <input class="bot-right" id="bot-right" type="text" placeholder="Bottom Right" />
               </div>
             </div>
-            <button>Submit</button>
+            <button onClick="send_config()">Submit</button>
 
           </div>
         </div>
